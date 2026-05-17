@@ -1,0 +1,11 @@
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\bin\Debug\net10.0\WorkRequestTracker.Domain.deps.json
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\bin\Debug\net10.0\WorkRequestTracker.Domain.dll
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\bin\Debug\net10.0\WorkRequestTracker.Domain.pdb
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\WorkRequestTracker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\WorkRequestTracker.Domain.AssemblyInfoInputs.cache
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\WorkRequestTracker.Domain.AssemblyInfo.cs
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\WorkRequestTracker.Domain.csproj.CoreCompileInputs.cache
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\WorkRequestTracker.Domain.dll
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\refint\WorkRequestTracker.Domain.dll
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\WorkRequestTracker.Domain.pdb
+I:\GAntigravity\Assisments2026\WorkRequestTracker\WorkRequestTracker.Domain\obj\Debug\net10.0\ref\WorkRequestTracker.Domain.dll

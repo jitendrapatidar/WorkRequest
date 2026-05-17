@@ -1,0 +1,13 @@
+@WorkRequestTracker.Api_HostAddress = http://localhost:5234
+
+#if (EnableOpenAPI)
+GET {{WorkRequestTracker.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+#endif
+
+GET {{WorkRequestTracker.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

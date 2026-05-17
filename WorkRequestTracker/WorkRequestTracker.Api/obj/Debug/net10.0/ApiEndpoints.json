@@ -1,0 +1,147 @@
+[
+  {
+    "ContainingType": "WorkRequestTracker.Api.Controllers.WorkRequestsController",
+    "Method": "GetWorkRequests",
+    "RelativePath": "api/work-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WorkRequestTracker.Application.Common.Models.PaginatedList\u00601[[WorkRequestTracker.Application.DTOs.WorkRequestDto, WorkRequestTracker.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkRequestTracker.Api.Controllers.WorkRequestsController",
+    "Method": "CreateWorkRequest",
+    "RelativePath": "api/work-requests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "WorkRequestTracker.Application.WorkRequests.Commands.CreateWorkRequest.CreateWorkRequestCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkRequestTracker.Api.Controllers.WorkRequestsController",
+    "Method": "GetWorkRequestById",
+    "RelativePath": "api/work-requests/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WorkRequestTracker.Application.DTOs.WorkRequestDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkRequestTracker.Api.Controllers.WorkRequestsController",
+    "Method": "AddWorkRequestNote",
+    "RelativePath": "api/work-requests/{id}/notes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "WorkRequestTracker.Application.WorkRequests.Commands.AddWorkRequestNote.AddWorkRequestNoteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WorkRequestTracker.Api.Controllers.WorkRequestsController",
+    "Method": "UpdateWorkRequestStatus",
+    "RelativePath": "api/work-requests/{id}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "command",
+        "Type": "WorkRequestTracker.Application.WorkRequests.Commands.UpdateWorkRequestStatus.UpdateWorkRequestStatusCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
